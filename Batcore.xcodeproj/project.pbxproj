@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		270E29112E1AD331007D85F2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 270E29102E1AD2D7007D85F2 /* .gitignore */; };
+		2740E9E62E1A7B2B009581E2 /* BatcaveHomeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2740E9E52E1A7B1B009581E2 /* BatcaveHomeAppApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2740E99C2E1A3342009581E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270E29102E1AD2D7007D85F2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2740E98D2E1A3341009581E2 /* Batcore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Batcore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2740E99B2E1A3342009581E2 /* BatcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2740E9A52E1A3342009581E2 /* BatcoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatcoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2740E9E52E1A7B1B009581E2 /* BatcaveHomeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatcaveHomeAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +50,31 @@
 		2740E9A82E1A3342009581E2 /* BatcoreUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BatcoreUITests;
+			sourceTree = "<group>";
+		};
+		2740E9B82E1A78C0009581E2 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2740E9C32E1A79DC009581E2 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2740E9D02E1A7A33009581E2 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2740E9DA2E1A7A55009581E2 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2740E9DE2E1A7A78009581E2 /* Utils */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +107,17 @@
 		2740E9842E1A3341009581E2 = {
 			isa = PBXGroup;
 			children = (
+				270E29102E1AD2D7007D85F2 /* .gitignore */,
+				2740E9B82E1A78C0009581E2 /* Models */,
 				2740E98F2E1A3341009581E2 /* Batcore */,
 				2740E99E2E1A3342009581E2 /* BatcoreTests */,
 				2740E9A82E1A3342009581E2 /* BatcoreUITests */,
 				2740E98E2E1A3341009581E2 /* Products */,
+				2740E9C32E1A79DC009581E2 /* Views */,
+				2740E9D02E1A7A33009581E2 /* Services */,
+				2740E9DA2E1A7A55009581E2 /* Resources */,
+				2740E9DE2E1A7A78009581E2 /* Utils */,
+				2740E9E52E1A7B1B009581E2 /* BatcaveHomeAppApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +148,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2740E98F2E1A3341009581E2 /* Batcore */,
+				2740E9B82E1A78C0009581E2 /* Models */,
+				2740E9C32E1A79DC009581E2 /* Views */,
+				2740E9D02E1A7A33009581E2 /* Services */,
+				2740E9DA2E1A7A55009581E2 /* Resources */,
+				2740E9DE2E1A7A78009581E2 /* Utils */,
 			);
 			name = Batcore;
 			packageProductDependencies = (
@@ -195,6 +239,9 @@
 			);
 			mainGroup = 2740E9842E1A3341009581E2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2740EA0E2E1A7F1C009581E2 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2740E98E2E1A3341009581E2 /* Products */;
 			projectDirPath = "";
@@ -212,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270E29112E1AD331007D85F2 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2740E9E62E1A7B2B009581E2 /* BatcaveHomeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +590,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2740EA0E2E1A7F1C009581E2 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2740E9852E1A3341009581E2 /* Project object */;
 }
